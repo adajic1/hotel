@@ -1,0 +1,5 @@
+https://www.cssmatic.com/gradient-generator#'\-moz\-linear\-gradient\%28left\%2C\%20rgba\%28255\%2C255\%2C255\%2C1\%29\%200\%25\%2C\%20rgba\%28138\%2C136\%2C235\%2C1\%29\%20100\%25\%29\%3B'
+https://code.tutsplus.com/tutorials/how-to-create-a-drop-down-nav-menu-with-html5-css3-and-jquery--net-12176
+https://www.jssor.com/demos/simple-fade-slideshow.slider
+https://www.jssor.com/development/api-options.html
+

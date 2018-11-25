@@ -18,12 +18,12 @@
 		}		
 	</script>
 </head>
-<body class="no_margin-no_padding georgia_font" onload="setLayoutWidth();">
+<body class="no_margin-no_padding" onload="setLayoutWidth();" style="font-family: Georgia, serif;">
 	<center>
 	<noscript>
 	<br>Please enable Javascript to see the page
 	</noscript>
-	<table cellspacing="0" cellpadding="0" border="0" id="layout_table" width="90%">
+	<table cellspacing="0" cellpadding="0" border="0" id="layout_table" width="95%">
 		<tr><td align="center">
 			<table cellspacing="0" cellpadding="0" border="0" width="100%">
 				<tr>
@@ -31,10 +31,13 @@
 					<td width="34%" rowspan="2" align="center">
 						<img src="images/logo.png" alt="L'hotel Palazzu" width="300" height="139">
 					</td>
-					<td width="33%" align="right" class="right_gradient"><a href="#">FR/EN</a>&nbsp;</td>
+					<td width="33%" align="center" class="right_gradient"><br><a href="#">FR/EN</a>&nbsp;</td>
 				</tr>
 				<tr>
-					<td align="center" class="left_gradient">Find us</td>
+					<td align="center" class="left_gradient" valign="middle">
+					<img src="images/loc.png" width="80px" style="vertical-align: middle;">
+					<a href="#">Find us</a>
+					</td>
 					<td align="center" class="right_gradient">
 						<a href="#" class="yellow_button">RESERVATIONS</a>
 					</td>
@@ -229,30 +232,74 @@
 			    </div>
 			    <!-- #endregion Jssor Slider End -->
 			</td></tr></table>
-			<hr style="height: 10px; width: 99%; margin:0 auto; background: none; border:0 none;"/>
+			<hr style="height: 15px; width: 99%; margin:0 auto; background: none; border:0 none;"/>
 			
-			<table cellspacing="0" cellpadding="0" border="1" width="40%" style="position: relative;">
+			<table cellspacing="0" cellpadding="0" border="0" width="100%">
 				<tr>
-					<td align="center" valign="middle">
-						<img src="images/index_1.jpg" width="100%" height="200px" style="margin:0px; padding: 0px; float: left;border:0px">
-						<div style="position: absolute; top: 8px;">
-							<font color="#000000">
-								<b>Writing text above image</b>
-							</font>
-						</div>
+					<td align="center" valign="middle" style="position: relative;" width="32%">
+						<img src="images/index_1.jpg" width="100%" height="250px" style="margin:0px; padding: 0px; float: left; border-width: 1px; border-style: solid; border-color: #000000;">
 						<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">							
-							<font color="#ffffff">
+							<font color="#ffffff" class="alpha60bg70">
 								<b>Writing text above image</b>								
 							</font>
 						</div>
-    					<div style="position: absolute; top: 85%; left: 50%; transform: translate(-50%, -50%);">							
+    					<div style="position: absolute; top: 85%; left: 50%; transform: translate(-50%, -50%); white-space: nowrap;">							
 							<a href="#" class="yellow_button">Beneficiez de nos offres</a>
-						</div>						
+						</div>			
+					</td>
+					<td></td>
+					<td align="center" valign="middle" style="position: relative;" width="32%">
+						<img src="images/index_2.jpg" width="100%" height="250px" style="margin:0px; padding: 0px; float: left; border-width: 1px; border-style: solid; border-color: #000000;">
+						<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">							
+							<font color="#ffffff" class="alpha60bg70">
+								<b>Writing text above image</b>								
+							</font>
+						</div>
+    					<div style="position: absolute; top: 85%; left: 50%; transform: translate(-50%, -50%); white-space: nowrap;">							
+							<a href="#" class="yellow_button">Beneficiez de nos offres</a>
+						</div>			
+					</td>
+					<td></td>
+					<td align="center" valign="middle" style="position: relative;" width="32%">
+						<img src="images/index_3.jpg" width="100%" height="250px" style="margin:0px; padding: 0px; float: left; border-width: 1px; border-style: solid; border-color: #000000;">
+						<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">							
+							<font color="#ffffff" class="alpha60bg70">
+								<b>Writing text above image</b>								
+							</font>
+						</div>
+    					<div style="position: absolute; top: 85%; left: 50%; transform: translate(-50%, -50%); white-space: nowrap;">							
+							<a href="#" class="yellow_button">Beneficiez de nos offres</a>
+						</div>			
+					</td>
+				</tr>
+			</table>			
+			
+			<hr style="height: 15px; width: 99%; margin:0 auto; background: none; border:0 none;"/>
+			
+			<table cellspacing="0" cellpadding="0" border="0" width="100%">
+				<tr>
+					<td width="32%" class="left_gradient">
+						
+					</td>
+					<td align="center" width="36%">
+						<font style="font-size: 14px;">
+							17, Rue Bonaparte 20000 Ajaccio | 04 95 50 00 20<br>
+							Suivez-nous:RéseauxSociaux
+						</font>
+					</td>
+					<td width="32%" class="right_gradient">
+						<hr style="height: 15px; width: 99%; margin:0 auto; background: none; border:0 none;"/>
+						Inscription Newsletter:<br>
+						<form action="#">
+							<input type="text" name="email" size="35"> <input type="submit" value="Subscribe">
+						</form>
+						<hr style="height: 15px; width: 99%; margin:0 auto; background: none; border:0 none;"/>
 					</td>
 				</tr>
 			</table>
-			
-			<hr style="height: 10px; width: 99%; margin:0 auto; background: none; border:0 none;"/>
+			<hr style="height: 15px; width: 99%; margin:0 auto; background: none; border:0 none;"/>
+			Mentions légales –Nous contacter
+			<hr style="height: 50px; width: 99%; margin:0 auto; background: none; border:0 none;"/>
 		</td></tr>
 	</table>
 	</center>

@@ -80,7 +80,7 @@ html, body {
 /* JS disabled styles */
 nav li:hover ul { display:block; z-index: 1;}
 /* base nav styles */
-nav { display:block; margin:0 auto 20px; border:1px solid #222; position:relative; background-color:#6a6a6a; font:16px Tahoma, Sans-serif; }
+nav { display:block; margin:0 auto 10px; border:1px solid #222; position:relative; background-color:#6a6a6a; font:16px Tahoma, Sans-serif; }
 nav ul { padding:0; margin:0; }
 nav li { position:relative; float:left; list-style-type:none; }
 nav ul:after { content:"."; display:block; height:0; clear:both; visibility:hidden; }

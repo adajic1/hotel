@@ -2,7 +2,9 @@ https://www.cssmatic.com/gradient-generator#'\-moz\-linear\-gradient\%28left\%2C
 https://code.tutsplus.com/tutorials/how-to-create-a-drop-down-nav-menu-with-html5-css3-and-jquery--net-12176
 https://www.jssor.com/demos/simple-fade-slideshow.slider
 https://www.jssor.com/development/api-options.html
+chrome://settings/content/javascript
 
+Napraviti da nema spacing-a ispod Nav
 Napraviti da se u tabeli moze pisati i dodati button, a background je img
 Napraviti kompletnu prvu stranicu
-Ukucati stavke menija
+Ukucati stavke menija, sve prevesti na Francuski

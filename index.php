@@ -249,6 +249,7 @@
 					</td>
 				</tr>
 			</table>
+			
 			<hr style="height: 10px; width: 99%; margin:0 auto; background: none; border:0 none;"/>
 		</td></tr>
 	</table>

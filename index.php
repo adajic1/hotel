@@ -237,13 +237,14 @@
 						<img src="images/index_1.jpg" width="100%" height="200px" style="margin:0px; padding: 0px; float: left;border:0px">
 						<div style="position: absolute; top: 8px;">
 							<font color="#000000">
-								<b>Writing text</b>
+								<b>Writing text above image</b>
 							</font>
 						</div>
     					<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
 							<font color="#ffffff">
-								<b>Writing text</b>
+								<b>Writing text above image</b>								
 							</font>
+							<a href="#" class="yellow_button">Beneficiez de nos offres</a>
 						</div>
 					</td>
 				</tr>

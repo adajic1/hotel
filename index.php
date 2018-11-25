@@ -240,12 +240,14 @@
 								<b>Writing text above image</b>
 							</font>
 						</div>
-    					<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+						<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">							
 							<font color="#ffffff">
 								<b>Writing text above image</b>								
 							</font>
-							<a href="#" class="yellow_button">Beneficiez de nos offres</a>
 						</div>
+    					<div style="position: absolute; top: 85%; left: 50%; transform: translate(-50%, -50%);">							
+							<a href="#" class="yellow_button">Beneficiez de nos offres</a>
+						</div>						
 					</td>
 				</tr>
 			</table>

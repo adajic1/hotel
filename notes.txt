@@ -3,8 +3,7 @@ https://code.tutsplus.com/tutorials/how-to-create-a-drop-down-nav-menu-with-html
 https://www.jssor.com/demos/simple-fade-slideshow.slider
 https://www.jssor.com/development/api-options.html
 chrome://settings/content/javascript
+https://www.quackit.com/html/codes/html_stretch_background_image.cfm
 
-Napraviti da nema spacing-a ispod Nav
-Napraviti da se u tabeli moze pisati i dodati button, a background je img
 Napraviti kompletnu prvu stranicu
 Ukucati stavke menija, sve prevesti na Francuski

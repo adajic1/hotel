@@ -6,29 +6,22 @@
 	<meta http-equiv="Pragma" content="no-cache" />
 	<meta http-equiv="Expires" content="0" />
 	<link rel="stylesheet" href="css/style.css">
-	<!--[if IE 7]>
-	    <link rel="stylesheet" href="css/ie.css">
-	    <link rel="stylesheet" href="css/ie7.css">
-	<![endif]-->
 	<script src="javascript/jquery-3.3.1.min.js"></script>
 	<script src="javascript/modernizr.js"></script>
-	<script type="text/javascript">
+	<!--[if IE]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script type="text/javascript">
 		function setLayoutWidth() {
 			doc_width = $(document).width()*90./100;
 			$('#layout_table').attr('width', doc_width);
 		}		
 	</script>
-	<!--[if IE]>
-        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
 </head>
 <body class="no_margin-no_padding georgia_font" onload="setLayoutWidth();">
 	<center>
 	<noscript>
 	<br>Please enable Javascript to see the page
-	<!--[if IE]>
-	    <link rel="stylesheet" href="css/ie.css">
-	<![endif]-->
 	</noscript>
 	<table cellspacing="0" cellpadding="0" border="0" id="layout_table" width="90%">
 		<tr><td align="center">
@@ -47,7 +40,6 @@
 					</td>
 				</tr>
 			</table>
-			<span class="no-js" id="no-js">
 			<table cellspacing="0" cellpadding="0" border="0" width="100%">
 				<tr><td align="center">
 					<nav id="topNav">
@@ -92,7 +84,6 @@
 			        </nav>
 				</td></tr>
 			</table>
-			</span>
 			<table cellspacing="0" cellpadding="0" border="1" width="100%"><tr><td>
 				 <!-- #region Jssor Slider Begin -->
 			    <script src="javascript/jssor.slider-27.5.0.min.js" type="text/javascript"></script>
@@ -261,10 +252,6 @@
 		</td></tr>
 	</table>
 	</center>
-	<script type="text/javascript">
-		var el = document.getElementById("no-js");
-		el.className = "";
-	</script>
 	<script type="text/javascript">	
 		(function($){				
 			//cache nav

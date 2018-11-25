@@ -6,21 +6,30 @@
 	<meta http-equiv="Pragma" content="no-cache" />
 	<meta http-equiv="Expires" content="0" />
 	<link rel="stylesheet" href="css/style.css">
+	<!--[if IE 7]>
+	    <link rel="stylesheet" href="css/ie.css">
+	    <link rel="stylesheet" href="css/ie7.css">
+	<![endif]-->
 	<script src="javascript/jquery-3.3.1.min.js"></script>
 	<script src="javascript/modernizr.js"></script>
 	<script type="text/javascript">
 		function setLayoutWidth() {
 			doc_width = $(document).width()*90./100;
 			$('#layout_table').attr('width', doc_width);
-		}
+		}		
 	</script>
 	<!--[if IE]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
 </head>
 <body class="no_margin-no_padding georgia_font" onload="setLayoutWidth();">
 	<center>
+	<noscript>
+	<br>Please enable Javascript to see the page
+	<!--[if IE]>
+	    <link rel="stylesheet" href="css/ie.css">
+	<![endif]-->
+	</noscript>
 	<table cellspacing="0" cellpadding="0" border="0" id="layout_table" width="90%">
 		<tr><td align="center">
 			<table cellspacing="0" cellpadding="0" border="0" width="100%">
@@ -38,6 +47,7 @@
 					</td>
 				</tr>
 			</table>
+			<span class="no-js" id="no-js">
 			<table cellspacing="0" cellpadding="0" border="0" width="100%">
 				<tr><td align="center">
 					<nav id="topNav">
@@ -82,6 +92,7 @@
 			        </nav>
 				</td></tr>
 			</table>
+			</span>
 			<table cellspacing="0" cellpadding="0" border="1" width="100%"><tr><td>
 				 <!-- #region Jssor Slider Begin -->
 			    <script src="javascript/jssor.slider-27.5.0.min.js" type="text/javascript"></script>
@@ -227,8 +238,56 @@
 			    </div>
 			    <!-- #endregion Jssor Slider End -->
 			</td></tr></table>
+			<hr style="height: 10px; width: 99%; margin:0 auto; background: none; border:0 none;"/>
+			
+			<table cellspacing="0" cellpadding="0" border="1" width="40%" style="position: relative;">
+				<tr>
+					<td align="center" valign="middle">
+						<img src="images/index_1.jpg" width="100%" height="200px" style="margin:0px; padding: 0px; float: left;border:0px">
+						<div style="position: absolute; top: 8px;">
+							<font color="#000000">
+								<b>Writing text</b>
+							</font>
+						</div>
+    					<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+							<font color="#ffffff">
+								<b>Writing text</b>
+							</font>
+						</div>
+					</td>
+				</tr>
+			</table>
+			<hr style="height: 10px; width: 99%; margin:0 auto; background: none; border:0 none;"/>
 		</td></tr>
 	</table>
 	</center>
+	<script type="text/javascript">
+		var el = document.getElementById("no-js");
+		el.className = "";
+	</script>
+	<script type="text/javascript">	
+		(function($){				
+			//cache nav
+			var nav = $("#topNav");
+					
+			//add indicators and hovers to submenu parents
+			nav.find("li").each(function() {
+				if ($(this).find("ul").length > 0) {
+					
+					//show subnav on hover
+					$(this).mouseenter(function() {
+						$(this).find("ul").stop(true, true).slideDown();
+					});
+							
+					//hide submenus on exit
+					$(this).mouseleave(function() {
+						$(this).find("ul").stop(true, true).slideUp();
+					});
+				}
+			});
+			
+			$("#layout_table")[0].style.visibility = "visible";
+		})(jQuery);
+	</script>
 </body>
 </html>

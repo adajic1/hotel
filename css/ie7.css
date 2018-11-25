@@ -1,0 +1,5 @@
+* styles to fix IE7 */
+ul { display:inline-block; }
+ul li a span { position:absolute; right:5px; top:10px; }
+ul ul li a { border-right:none; padding:5px 10px; }
+.content { clear:both; }

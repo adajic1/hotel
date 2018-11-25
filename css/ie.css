@@ -1,0 +1,21 @@
+/* ie styles for when js disabled */
+ul { display:block; padding:0; margin:0; background:url(../images/fallback/navRightIE.gif) no-repeat 100% 0; font:16px Tahoma, Sans-serif; }
+ul:after { content:"."; display:block; height:0; clear:both; visibility:hidden; }
+li { height:44px; position:relative; float:left; list-style-type:none; background:url(../images/fallback/navBG.gif) repeat-x 0 0; }
+li.last a { border-right:none; }
+li:hover { background:url(../images/fallback/navOverBG.gif) repeat-x 0 0; }
+li:first-child { background:url(../images/fallback/navLeftIE.gif) no-repeat 0 0; }
+li:first-child a { border-left:none; }
+li:first-child:hover { background:url(../images/fallback/navOverLeft.gif) no-repeat 0 0; }
+li a { display:block; padding:10px 20px; border-left:1px solid #999; border-right:1px solid #222; color:#eee; text-decoration:none; }
+li li { width:auto; clear:left; }
+li li:first-child { background:none; }
+li li:hover { background-image:none; }
+ul li li a:hover { border-right:none; }
+ul ul { display:none; padding-left:2px; position:absolute; left:2px; background:url(../images/fallback/subnavBG.png) no-repeat 100% 100%; }
+ul li:hover ul { display:block; }
+li li { height:auto; width:98%; left:-2px; }
+ul ul a:hover { background:url(../images/fallback/subOverBG.png) repeat 0 0; }
+ul ul li { background:none; }
+ul ul li.last { margin-bottom:10px; }
+ul ul li a { padding:5px 10px; border-left:0; left:3px; font-size:14px; white-space:pre; }

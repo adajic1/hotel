@@ -13,10 +13,12 @@
     <![endif]-->
     <script type="text/javascript">
 		function loaded() {
-			doc_width = $(document).width()*90./100;
+			doc_width = $(document).width()*95./100;
 			$('#layout_table').attr('width', doc_width);
+			
 			nav_link_el = $("a[title='Nav Link 1']")[0];
 			$(nav_link_el).css({"text-decoration": "underline"});
+			
 			$('.modal-toggle').on('click', function(e) {
 			  e.preventDefault();
 			  $('.modal').toggleClass('is-visible');
@@ -52,97 +54,11 @@
 	</noscript>
 	<table cellspacing="0" cellpadding="0" border="0" id="layout_table" width="95%">
 		<tr><td align="center">
-			<table cellspacing="0" cellpadding="0" border="0" width="100%">
-				<tr>
-					<td width="33%" class="left_gradient"></td>
-					<td width="34%" rowspan="2" align="center">
-						<img src="images/logo.png" alt="L'hotel Palazzu" width="300" height="139">
-					</td>
-					<td width="33%" align="right" class="right_gradient"><br><a href="#">FR/EN</a>&nbsp;</td>
-				</tr>
-				<tr>
-					<td align="center" class="left_gradient" valign="middle">
-					<img src="images/loc.png" width="80px" style="vertical-align: middle;">
-					<a href="#">NOUS TROUVER</a>
-					</td>
-					<td align="center" class="right_gradient">
-						<a href="#" class="yellow_button">RESERVER</a>
-					</td>
-				</tr>
-			</table>
-			<table cellspacing="0" cellpadding="0" border="0" width="100%">
-				<tr><td align="center">
-					<nav id="topNav">
-			        	<ul>
-			        		<table cellspacing="0" cellpadding="0" border="0" width="100%">
-				        		<tr>
-					        		<td align="center" width="1" style="white-space: nowrap;">
-						                <li>
-						                	<a href="#" title="Nav Link 1">HEBERGEMENT</a>
-						                	<ul>  
-						                        <li><a href="#" title="Sub Nav Link 1">CHAMBRE<?php for($i=0; $i<12; $i++) print("&nbsp;"); ?></a></li>
-						                        <li><a href="#" title="Sub Nav Link 2">SUITE<?php for($i=0; $i<12; $i++) print("&nbsp;"); ?></a></li>
-						                    </ul>   
-						                </li>
-						            </td>
-						            <td></td>
-						            <td align="center" width="1" style="white-space: nowrap;">
-						                <li>
-						                    <a href="#" title="Nav Link 2">GASTRONOMIE</a>
-						                    <ul>  
-						                        <li><a href="#" title="Sub Nav Link 1">JEAN-LUC MAZZONI</a></li>
-						                        <li><a href="#" title="Sub Nav Link 2">BUFFET PETIT DEJEUNER</a></li>
-						                        <li><a href="#" title="Sub Nav Link 3">CHAUFFEUR PRIVEE</a></li>
-						                        <li><a href="#" title="Sub Nav Link 4">BIEN ÊTRE</a></li>
-						                    </ul>                
-						                </li>
-						            </td>
-						            <td></td>
-						            <td align="center" width="1" style="white-space: nowrap;">
-						                <li>
-						                    <a href="#" title="Nav Link 3">LES SERVICES</a>
-						                    <ul>  
-						                        <li><a href="#" title="Sub Nav Link 1">NAVETTE AEROPORT</a></li>
-						                        <li><a href="#" title="Sub Nav Link 2">CONCIERGERIE</a></li>
-						                        <li><a href="#" title="Sub Nav Link 3">RESTAURANT</a></li>
-						                        <li><a href="#" title="Sub Nav Link 4">SALONDETHE</a></li>
-						                    </ul>                
-						                </li>
-						            </td>
-						            <td></td>
-						            <td align="center" width="1" style="white-space: nowrap;">
-						                <li>
-						                    <a href="#" title="Nav Link 4">LES ACTIVITES</a>
-						                    <ul>  
-						                        <li><a href="#" title="Sub Nav Link 1">LA PLAGE</a></li>
-						                        <li><a href="#" title="Sub Nav Link 2">LA MER</a></li>
-						                        <li><a href="#" title="Sub Nav Link 3">LES TERRES</a></li>
-						                        <li><a href="#" title="Sub Nav Link 4">UN DINER EN AUBERGE</a></li>
-						                        <li><a href="#" title="Sub Nav Link 5">LES THERMES</a></li>
-						                    </ul>                
-						                </li>
-						            </td>
-						            <td></td>
-						            <td align="center" width="1" style="white-space: nowrap;">
-						                <li>
-						                    <a href="#" title="Nav Link 5">OCCASIONS</a>
-						                    <ul>  
-						                        <li><a href="#" title="Sub Nav Link 1">MARIAGE</a></li>
-						                        <li><a href="#" title="Sub Nav Link 2">EVENEMENT & CONFERENCE</a></li>
-						                        <li><a href="#" title="Sub Nav Link 3">OCCASION SPECIALE</a></li>
-						                    </ul>                
-						                </li>
-					                </td>
-					                <td></td>
-					                </td><td align="center" width="1" style="white-space: nowrap;">
-						                <li><a href="#" title="Nav Link 6">LES OFFRES</a></li>
-					                </td>
-				                </tr>
-			                </table>
-			            </ul>
-			        </nav>
-				</td></tr>
-			</table>
+		
+			<?php require "_header.php"; ?>
+			
+			<?php require "_navigation.php"; ?>
+			
 			<table cellspacing="0" cellpadding="0" border="1" width="100%"><tr><td>
 				 <!-- #region Jssor Slider Begin -->
 			    <script src="javascript/jssor.slider-27.5.0.min.js" type="text/javascript"></script>
@@ -344,47 +260,10 @@
 			
 			<hr style="height: 15px; width: 99%; margin:0 auto; background: none; border:0 none;"/>
 			
-			<table cellspacing="0" cellpadding="0" border="0" width="100%">
-				<tr>
-					<td width="32%" class="left_gradient">
-						
-					</td>
-					<td align="center" width="36%">
-						<font style="font-size: 14px;">
-							17, Rue Bonaparte 20000 Ajaccio | 04 95 50 00 20<br>
-							Suivez-nous:RéseauxSociaux
-						</font>
-					</td>
-					<td width="32%" class="right_gradient">
-						<hr style="height: 15px; width: 99%; margin:0 auto; background: none; border:0 none;"/>
-						Inscription Newsletter:<br>
-						<form action="#" id="subscriber_form" onsubmit="subscribe(); return false;">
-							<input type="text" name="email" size="35"> <input type="submit" value="Subscribe">
-						</form>
-						<hr style="height: 15px; width: 99%; margin:0 auto; background: none; border:0 none;"/>
-					</td>
-				</tr>
-			</table>
-			<hr style="height: 15px; width: 99%; margin:0 auto; background: none; border:0 none;"/>
-			Mentions légales –Nous contacter
-			<hr style="height: 50px; width: 99%; margin:0 auto; background: none; border:0 none;"/>
+			<?php include "_footer.php"; ?>
 			
-			<svg display="none" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="768" height="800" viewBox="0 0 768 800"><defs><g id="icon-close"><path class="path1" d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z"></path></g></defs></svg>
-			<div class="modal">
-				<div class="modal-overlay modal-toggle"></div>
-				<div class="modal-wrapper modal-transition">
-					<div class="modal-header">
-						<button class="modal-close modal-toggle"><svg class="icon-close icon" viewBox="0 0 32 32"><use xlink:href="#icon-close"></use></svg></button>
-						<h2 class="modal-heading">--PLACE_HOLDER--</h2>
-					</div>
-					<div class="modal-body">
-						<div class="modal-content">
-							<p class="modal-text">--PLACE_HOLDER--</p>
-							<button class="modal-toggle">&nbsp;&nbsp;&nbsp;OK&nbsp;&nbsp;&nbsp;</button>
-						</div>
-					</div>
-				</div>
-			</div>
+			<?php include "_modal.php"; ?>
+			
 		</td></tr>
 	</table>
 	</center>

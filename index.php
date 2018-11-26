@@ -15,7 +15,28 @@
 		function setLayoutWidth() {
 			doc_width = $(document).width()*90./100;
 			$('#layout_table').attr('width', doc_width);
+			nav_link_el = $("a[title='Nav Link 1']")[0];
+			$(nav_link_el).css({"text-decoration": "underline"});
 		}		
+		
+		function subscribe() {
+			var postData = $(document.getElementById("subscriber_form")).serialize();
+			$.ajax({
+			    type: "post",
+			    url: "subscribe.php",
+			    data: postData,
+			    contentType: "application/x-www-form-urlencoded",
+			    async: true,
+			    success: function(responseData, textStatus, jqXHR) {
+			        alert(responseData);
+			    },
+			    error: function(jqXHR, textStatus, errorThrown) {
+			        console.log(jqXHR);
+			        console.log(textStatus);
+			        console.log(errorThrown);
+			    }
+			});
+		}
 	</script>
 </head>
 <body class="no_margin-no_padding" onload="setLayoutWidth();" style="font-family: Georgia, serif;">
@@ -53,8 +74,8 @@
 						                <li>
 						                	<a href="#" title="Nav Link 1">HEBERGEMENT</a>
 						                	<ul>  
-						                        <li><a href="#" title="Sub Nav Link 1">CHAMBRE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-						                        <li><a href="#" title="Sub Nav Link 2">SUITE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+						                        <li><a href="#" title="Sub Nav Link 1">CHAMBRE<?php for($i=0; $i<12; $i++) print("&nbsp;"); ?></a></li>
+						                        <li><a href="#" title="Sub Nav Link 2">SUITE<?php for($i=0; $i<12; $i++) print("&nbsp;"); ?></a></li>
 						                    </ul>   
 						                </li>
 						            </td>
@@ -73,7 +94,7 @@
 						            <td></td>
 						            <td align="center" width="1" style="white-space: nowrap;">
 						                <li>
-						                    <a href="#" title="Nav Link 2">LES SERVICES</a>
+						                    <a href="#" title="Nav Link 3">LES SERVICES</a>
 						                    <ul>  
 						                        <li><a href="#" title="Sub Nav Link 1">NAVETTE AEROPORT</a></li>
 						                        <li><a href="#" title="Sub Nav Link 2">CONCIERGERIE</a></li>
@@ -85,20 +106,20 @@
 						            <td></td>
 						            <td align="center" width="1" style="white-space: nowrap;">
 						                <li>
-						                    <a href="#" title="Nav Link 2">LES ACTIVITES</a>
+						                    <a href="#" title="Nav Link 4">LES ACTIVITES</a>
 						                    <ul>  
 						                        <li><a href="#" title="Sub Nav Link 1">LA PLAGE</a></li>
 						                        <li><a href="#" title="Sub Nav Link 2">LA MER</a></li>
 						                        <li><a href="#" title="Sub Nav Link 3">LES TERRES</a></li>
 						                        <li><a href="#" title="Sub Nav Link 4">UN DINER EN AUBERGE</a></li>
-						                        <li><a href="#" title="Sub Nav Link 4">LES THERMES</a></li>
+						                        <li><a href="#" title="Sub Nav Link 5">LES THERMES</a></li>
 						                    </ul>                
 						                </li>
 						            </td>
 						            <td></td>
 						            <td align="center" width="1" style="white-space: nowrap;">
 						                <li>
-						                    <a href="#" title="Nav Link 2">OCCASIONS</a>
+						                    <a href="#" title="Nav Link 5">OCCASIONS</a>
 						                    <ul>  
 						                        <li><a href="#" title="Sub Nav Link 1">MARIAGE</a></li>
 						                        <li><a href="#" title="Sub Nav Link 2">EVENEMENT & CONFERENCE</a></li>
@@ -331,7 +352,7 @@
 					<td width="32%" class="right_gradient">
 						<hr style="height: 15px; width: 99%; margin:0 auto; background: none; border:0 none;"/>
 						Inscription Newsletter:<br>
-						<form action="#">
+						<form action="#" id="subscriber_form" onsubmit="subscribe(); return false;">
 							<input type="text" name="email" size="35"> <input type="submit" value="Subscribe">
 						</form>
 						<hr style="height: 15px; width: 99%; margin:0 auto; background: none; border:0 none;"/>

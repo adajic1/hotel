@@ -87,7 +87,7 @@ nav li a { display:block; padding:10px 20px; color:#eee; text-decoration:none; }
 nav li a:focus { outline:none; text-decoration:underline; }
 nav li:first-child a { border-left:none; }
 nav li.last a { border-right:none; }
-nav ul ul { display:none; width:100%; position:absolute; left:0; background:#6a6a6a; }
+nav ul ul { display:none; position:absolute; left:0; background:#6a6a6a; text-align: left;}
 nav ul ul li { float:none; }
 nav ul ul a { padding:5px 10px; border-left:none; border-right:none; font-size:14px; }
 nav ul ul a:hover { background-color:#555; }

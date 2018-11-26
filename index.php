@@ -31,15 +31,15 @@
 					<td width="34%" rowspan="2" align="center">
 						<img src="images/logo.png" alt="L'hotel Palazzu" width="300" height="139">
 					</td>
-					<td width="33%" align="center" class="right_gradient"><br><a href="#">FR/EN</a>&nbsp;</td>
+					<td width="33%" align="right" class="right_gradient"><br><a href="#">FR/EN</a>&nbsp;</td>
 				</tr>
 				<tr>
 					<td align="center" class="left_gradient" valign="middle">
 					<img src="images/loc.png" width="80px" style="vertical-align: middle;">
-					<a href="#">Find us</a>
+					<a href="#">NOUS TROUVER</a>
 					</td>
 					<td align="center" class="right_gradient">
-						<a href="#" class="yellow_button">RESERVATIONS</a>
+						<a href="#" class="yellow_button">RESERVER</a>
 					</td>
 				</tr>
 			</table>
@@ -50,36 +50,65 @@
 			        		<table cellspacing="0" cellpadding="0" border="0" width="100%">
 				        		<tr>
 					        		<td align="center" width="1" style="white-space: nowrap;">
-						                <li><a href="#" title="Nav Link 1">Nav Link 1</a></li>
+						                <li>
+						                	<a href="#" title="Nav Link 1">HEBERGEMENT</a>
+						                	<ul>  
+						                        <li><a href="#" title="Sub Nav Link 1">CHAMBRE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+						                        <li><a href="#" title="Sub Nav Link 2">SUITE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+						                    </ul>   
+						                </li>
 						            </td>
 						            <td></td>
 						            <td align="center" width="1" style="white-space: nowrap;">
 						                <li>
-						                    <a href="#" title="Nav Link 2">Nav Link 2</a>
+						                    <a href="#" title="Nav Link 2">GASTRONOMIE</a>
 						                    <ul>  
-						                        <li><a href="#" title="Sub Nav Link 1">Sub Nav Link 1</a></li>
-						                        <li><a href="#" title="Sub Nav Link 2">Sub Nav Link 2</a></li>
-						                        <li><a href="#" title="Sub Nav Link 3">Sub Nav Link 3</a></li>
-						                        <li><a href="#" title="Sub Nav Link 4">Sub Nav Link 4</a></li>
-						                        <li class="last"><a href="#" title="Sub Nav Link 5">Sub Nav Link 5</a></li>
+						                        <li><a href="#" title="Sub Nav Link 1">JEAN-LUC MAZZONI</a></li>
+						                        <li><a href="#" title="Sub Nav Link 2">BUFFET PETIT DEJEUNER</a></li>
+						                        <li><a href="#" title="Sub Nav Link 3">CHAUFFEUR PRIVEE</a></li>
+						                        <li><a href="#" title="Sub Nav Link 4">BIEN ÊTRE</a></li>
 						                    </ul>                
 						                </li>
 						            </td>
 						            <td></td>
 						            <td align="center" width="1" style="white-space: nowrap;">
-						                <li><a href="#" title="Nav Link 3">Nav Link 3</a></li>
+						                <li>
+						                    <a href="#" title="Nav Link 2">LES SERVICES</a>
+						                    <ul>  
+						                        <li><a href="#" title="Sub Nav Link 1">NAVETTE AEROPORT</a></li>
+						                        <li><a href="#" title="Sub Nav Link 2">CONCIERGERIE</a></li>
+						                        <li><a href="#" title="Sub Nav Link 3">RESTAURANT</a></li>
+						                        <li><a href="#" title="Sub Nav Link 4">SALONDETHE</a></li>
+						                    </ul>                
+						                </li>
 						            </td>
 						            <td></td>
 						            <td align="center" width="1" style="white-space: nowrap;">
-						                <li><a href="#" title="Nav Link 4">Nav Link 4</a></li>
+						                <li>
+						                    <a href="#" title="Nav Link 2">LES ACTIVITES</a>
+						                    <ul>  
+						                        <li><a href="#" title="Sub Nav Link 1">LA PLAGE</a></li>
+						                        <li><a href="#" title="Sub Nav Link 2">LA MER</a></li>
+						                        <li><a href="#" title="Sub Nav Link 3">LES TERRES</a></li>
+						                        <li><a href="#" title="Sub Nav Link 4">UN DINER EN AUBERGE</a></li>
+						                        <li><a href="#" title="Sub Nav Link 4">LES THERMES</a></li>
+						                    </ul>                
+						                </li>
 						            </td>
 						            <td></td>
 						            <td align="center" width="1" style="white-space: nowrap;">
-						                <li><a href="#" title="Nav Link 5">Nav Link 5</a></li>
+						                <li>
+						                    <a href="#" title="Nav Link 2">OCCASIONS</a>
+						                    <ul>  
+						                        <li><a href="#" title="Sub Nav Link 1">MARIAGE</a></li>
+						                        <li><a href="#" title="Sub Nav Link 2">EVENEMENT & CONFERENCE</a></li>
+						                        <li><a href="#" title="Sub Nav Link 3">OCCASION SPECIALE</a></li>
+						                    </ul>                
+						                </li>
 					                </td>
 					                <td></td>
 					                </td><td align="center" width="1" style="white-space: nowrap;">
-						                <li><a href="#" title="Nav Link 6">Nav Link 6</a></li>
+						                <li><a href="#" title="Nav Link 6">LES OFFRES</a></li>
 					                </td>
 				                </tr>
 			                </table>
@@ -110,7 +139,8 @@
 			              $BulletNavigatorOptions: {
 			                $Class: $JssorBulletNavigator$
 			              },
-			              $Idle: 3000
+			              $Idle: 3000,
+			              $PauseOnHover: 0
 			            };
 
 			            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
@@ -238,9 +268,12 @@
 				<tr>
 					<td align="center" valign="middle" style="position: relative;" width="32%">
 						<img src="images/index_1.jpg" width="100%" height="250px" style="margin:0px; padding: 0px; float: left; border-width: 1px; border-style: solid; border-color: #000000;">
-						<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">							
-							<font color="#ffffff" class="alpha60bg70">
-								<b>Writing text above image</b>								
+						<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%;">							
+							<font color="#ffffff" class="alpha60bg70" style="font-size: 16px;">
+								<font style="font-size: 18px;"><b>
+								A la une
+								</b></font><br>								
+								Offre du moment
 							</font>
 						</div>
     					<div style="position: absolute; top: 85%; left: 50%; transform: translate(-50%, -50%); white-space: nowrap;">							
@@ -250,25 +283,33 @@
 					<td></td>
 					<td align="center" valign="middle" style="position: relative;" width="32%">
 						<img src="images/index_2.jpg" width="100%" height="250px" style="margin:0px; padding: 0px; float: left; border-width: 1px; border-style: solid; border-color: #000000;">
-						<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">							
-							<font color="#ffffff" class="alpha60bg70">
-								<b>Writing text above image</b>								
+						<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%;">							
+							<font color="#ffffff" class="alpha60bg70" style="font-size: 16px;">
+								<font style="font-size: 18px;"><b>
+								Bistronomie
+								</b></font><br>								
+								Focus sur le chef: RENVOYER A LA PAGE CHEF
+								une cuisine alliant les meilleurs produits du terroirs, à la bistronomie française…
 							</font>
 						</div>
     					<div style="position: absolute; top: 85%; left: 50%; transform: translate(-50%, -50%); white-space: nowrap;">							
-							<a href="#" class="yellow_button">Beneficiez de nos offres</a>
+							<a href="#" class="yellow_button">Decouvrez une innovation culinaire</a>
 						</div>			
 					</td>
 					<td></td>
 					<td align="center" valign="middle" style="position: relative;" width="32%">
 						<img src="images/index_3.jpg" width="100%" height="250px" style="margin:0px; padding: 0px; float: left; border-width: 1px; border-style: solid; border-color: #000000;">
-						<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">							
-							<font color="#ffffff" class="alpha60bg70">
-								<b>Writing text above image</b>								
+						<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%;">							
+							<font color="#ffffff" class="alpha60bg70" style="font-size: 16px;">
+								<font style="font-size: 18px;"><b>
+								Une île à découvrir
+								</b></font><br>								
+								Mettre en avant les différentes propositions de l’hôtel en mettant à jour régulièrement:
+								Bateau, Rando, Termes, Diner en auberge…
 							</font>
 						</div>
     					<div style="position: absolute; top: 85%; left: 50%; transform: translate(-50%, -50%); white-space: nowrap;">							
-							<a href="#" class="yellow_button">Beneficiez de nos offres</a>
+							<a href="#" class="yellow_button">En savoir plus</a>
 						</div>			
 					</td>
 				</tr>

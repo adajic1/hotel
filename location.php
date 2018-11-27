@@ -56,7 +56,39 @@
 			
 			<?php require "_navigation.php"; ?>
 			
-			LOCATION			
+		    <h3 style="padding: 0px; margin: 0px;">Emplacement sur google maps</h3>
+		    <hr style="height: 15px; width: 99%; margin:0 auto; background: none; border:0 none;"/>
+		    <table cellspacing="0" cellpadding="0" border="0">
+		    	<tr>
+		    		<td width="220px" valign="top" style="white-space: nowrap;">
+		    			<font style="font-family: Arial;"><i>			    			
+			    			Rue: 17 Saint Louis en l'Ile<br>
+			    			La ville: Paris<br>
+			    			Latitude: 48.83218163<br>
+			    			Longitude: 2.34832764
+		    			</i></font>
+		    		</td>
+		    		<td align="center"><img src="images/map.jpg"></td>
+		    		<td width="100px"></td>
+		    	</tr>
+		    </table>		 
+			<hr style="height: 15px; width: 99%; margin:0 auto; background: none; border:0 none;"/>
+		    <div id="map"></div> 
+		    <script> 
+		      function initMap() { 
+		        var paris = {lat: 48.83218163, lng: 2.34832764}; 
+		        var map = new google.maps.Map(document.getElementById('map'), { 
+		          zoom: 12, 
+		          center: paris 
+		        }); 
+		        var marker = new google.maps.Marker({ 
+		          position: paris, 
+		          map: map 
+		        }); 
+		      } 
+		    </script> 
+		    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2bXKNDezDf6YNVc-SauobynNHPo4RJb8&callback=initMap"> 
+		    </script> 			
 			
 			<hr style="height: 15px; width: 99%; margin:0 auto; background: none; border:0 none;"/>
 			

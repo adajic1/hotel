@@ -1,6 +1,6 @@
 <table cellspacing="0" cellpadding="0" border="0" width="100%">
 	<tr>
-		<td width="33%" class="left_gradient" align="left">&nbsp;<a href="index.php">Home</a></td>
+		<td width="33%" class="left_gradient" align="left"><br>&nbsp;<a href="index.php">Home</a></td>
 		<td width="34%" rowspan="2" align="center">
 			<img src="images/logo.png" alt="L'hotel Palazzu" width="300" height="139">
 		</td>

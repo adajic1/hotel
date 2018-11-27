@@ -222,3 +222,8 @@ nav ul ul a:hover { background-color:#555; }
 .modal-content > *:last-child {
   margin-bottom: 0;
 }
+
+#map { 
+	height: 400px; 
+	width: 100%; 
+} 

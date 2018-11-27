@@ -5,5 +5,6 @@ https://www.jssor.com/development/api-options.html
 chrome://settings/content/javascript
 https://www.quackit.com/html/codes/html_stretch_background_image.cfm
 https://codepen.io/brandonb927/pen/wJaIi
+http://www.mapcoordinates.net/en
 
 Napraviti ostale stranice

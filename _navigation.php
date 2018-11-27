@@ -6,10 +6,10 @@
 	        		<tr>
 		        		<td align="center" width="1" style="white-space: nowrap;">
 			                <li>
-			                	<a href="#" title="Nav Link 1">HEBERGEMENT</a>
+			                	<a href="hebergement.php" title="Nav Link 1">HEBERGEMENT</a>
 			                	<ul>  
-			                        <li><a href="#" title="Sub Nav Link 1">CHAMBRE<?php for($i=0; $i<12; $i++) print("&nbsp;"); ?></a></li>
-			                        <li><a href="#" title="Sub Nav Link 2">SUITE<?php for($i=0; $i<12; $i++) print("&nbsp;"); ?></a></li>
+			                        <li><a href="chambre.php" title="Sub Nav Link 1">CHAMBRE<?php for($i=0; $i<12; $i++) print("&nbsp;"); ?></a></li>
+			                        <li><a href="suite.php" title="Sub Nav Link 2">SUITE<?php for($i=0; $i<12; $i++) print("&nbsp;"); ?></a></li>
 			                    </ul>   
 			                </li>
 			            </td>

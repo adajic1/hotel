@@ -64,8 +64,8 @@
 			
 			<hr style="height: 5px; width: 99%; margin:0 auto; background: none; border:0 none;"/>
 			
-			<a href="chambre_classique" style="text-decoration: none; color: black;">Chambre Classique</a> <?php for($i=0; $i<8; $i++) print "&nbsp;"; ?> - <?php for($i=0; $i<8; $i++) print "&nbsp;"; ?> 
-			<a href="chambre_confort" style="text-decoration: none; color: black;">Chambre Confort</a> <?php for($i=0; $i<8; $i++) print "&nbsp;"; ?> - <?php for($i=0; $i<8; $i++) print "&nbsp;"; ?>
+			<a href="chambre_classique.php" style="text-decoration: none; color: black;">Chambre Classique</a> <?php for($i=0; $i<8; $i++) print "&nbsp;"; ?> - <?php for($i=0; $i<8; $i++) print "&nbsp;"; ?> 
+			<a href="chambre_confort.php" style="text-decoration: none; color: black;">Chambre Confort</a> <?php for($i=0; $i<8; $i++) print "&nbsp;"; ?> - <?php for($i=0; $i<8; $i++) print "&nbsp;"; ?>
 			<a href="#" style="text-decoration: none; color: blue;"><b>Chambre Standing</b></a>
 			
 			<hr style="height: 15px; width: 99%; margin:0 auto; background: none; border:0 none;"/>

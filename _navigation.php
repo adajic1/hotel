@@ -40,13 +40,13 @@
 			            <td></td>
 			            <td align="center" width="1" style="white-space: nowrap;">
 			                <li>
-			                    <a href="#" title="Nav Link 4">LES ACTIVITES</a>
+			                    <a href="les_activites.php" title="Nav Link 4">LES ACTIVITES</a>
 			                    <ul>  
-			                        <li><a href="#" title="Sub Nav Link 1">LA PLAGE</a></li>
-			                        <li><a href="#" title="Sub Nav Link 2">LA MER</a></li>
-			                        <li><a href="#" title="Sub Nav Link 3">LES TERRES</a></li>
-			                        <li><a href="#" title="Sub Nav Link 4">UN DINER EN AUBERGE</a></li>
-			                        <li><a href="#" title="Sub Nav Link 5">LES THERMES</a></li>
+			                        <li><a href="la_plage.php" title="Sub Nav Link 1">LA PLAGE</a></li>
+			                        <li><a href="la_mer.php" title="Sub Nav Link 2">LA MER</a></li>
+			                        <li><a href="les_terres.php" title="Sub Nav Link 3">LES TERRES</a></li>
+			                        <li><a href="un_diner_en_auberge.php" title="Sub Nav Link 4">UN DINER EN AUBERGE</a></li>
+			                        <li><a href="les_thermes.php" title="Sub Nav Link 5">LES THERMES</a></li>
 			                    </ul>                
 			                </li>
 			            </td>

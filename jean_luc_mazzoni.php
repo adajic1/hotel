@@ -58,8 +58,8 @@
 			<?php require "_header.php"; ?>
 			
 			<?php require "_navigation.php"; ?>
-
-			<a href="jean_luc_mazzoni.php" style="text-decoration: none; color: black;">JEAN-LUC MAZZONI</a> <?php for($i=0; $i<8; $i++) print "&nbsp;"; ?> - <?php for($i=0; $i<8; $i++) print "&nbsp;"; ?> 
+		
+			<a href="#" style="text-decoration: none; color: blue;"><b>JEAN-LUC MAZZONI</b></a> <?php for($i=0; $i<8; $i++) print "&nbsp;"; ?> - <?php for($i=0; $i<8; $i++) print "&nbsp;"; ?> 
 			<a href="buffet_pettit_dejeuner.php" style="text-decoration: none; color: black;">BUFFET PETIT DEJEUNER</a> <?php for($i=0; $i<8; $i++) print "&nbsp;"; ?> - <?php for($i=0; $i<8; $i++) print "&nbsp;"; ?> 
 			<a href="chauffeur_privee.php" style="text-decoration: none; color: black;">CHAUFFEUR PRIVEE</a> <?php for($i=0; $i<8; $i++) print "&nbsp;"; ?> - <?php for($i=0; $i<8; $i++) print "&nbsp;"; ?> 
 			<a href="bien_etre.php" style="text-decoration: none; color: black;">BIEN ÊTRE</a> 
@@ -67,81 +67,36 @@
 			<hr style="height: 15px; width: 99%; margin:0 auto; background: none; border:0 none;"/>
 			
 			<table cellspacing="0" cellpadding="0" border="0" width="100%">
-				<tr>	
-					<td></td>								
-					<td align="center" valign="middle" style="position: relative; border-width: 1px; border-style: solid; border-color: #000000;" width="35%">
-						<a href="jean_luc_mazzoni.php" style="text-decoration: none; color: black;">
-						<img src="images/gastronomie_1.jpg" width="100%" height="250px" style="margin:0px; padding: 0px; float: left;">
+				<tr>		
+					<td></td>							
+					<td align="center" valign="middle" style="position: relative; border-width: 1px; border-style: solid; border-color: #000000;" width="65%">
+						<img src="images/005.jpg" width="100%" height="175px" style="margin:0px; padding: 0px; float: left;">
 						<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%;">							
 							<font color="#ffffff" class="alpha60bg70" style="font-size: 16px;">
 								<font style="font-size: 18px;"><b>
 								Jean-luc mazzoni
 								</b></font>
 							</font>
-						</div>
-    					<div style="position: absolute; top: 85%; left: 50%; transform: translate(-50%, -50%); white-space: nowrap;">							
-							<a href="jean_luc_mazzoni.php" class="yellow_button">En savoir plus</a>
-						</div>	
-						</a>		
+						</div>    							
 					</td>
-					<td width="20px"></td>
-					<td align="center" valign="middle" style="position: relative; border-width: 1px; border-style: solid; border-color: #000000;" width="35%">
-						<a href="buffet_pettit_dejeuner.php" style="text-decoration: none; color: black;">
-						<img src="images/gastronomie_2.jpg" width="100%" height="250px" style="margin:0px; padding: 0px; float: left;">
-						<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%;">							
-							<font color="#ffffff" class="alpha60bg70" style="font-size: 16px;">
-								<font style="font-size: 18px;"><b>
-								Buffet petit dejeuner
-								</b></font>
-							</font>
-						</div>
-    					<div style="position: absolute; top: 85%; left: 50%; transform: translate(-50%, -50%); white-space: nowrap;">							
-							<a href="buffet_pettit_dejeuner.php" class="yellow_button">En savoir plus</a>
-						</div>	
-						</a>		
-					</td>	
-					<td></td>				
+					<td></td>						
 				</tr>
-			</table>		
-			
-			<hr style="height: 15px; width: 99%; margin:0 auto; background: none; border:0 none;"/>
-				
-			<table cellspacing="0" cellpadding="0" border="0" width="100%">
-				<tr>	
-					<td></td>								
-					<td align="center" valign="middle" style="position: relative; border-width: 1px; border-style: solid; border-color: #000000;" width="35%">
-						<a href="chauffeur_privee.php" style="text-decoration: none; color: black;">
-						<img src="images/gastronomie_3.jpg" width="100%" height="250px" style="margin:0px; padding: 0px; float: left;">
-						<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%;">							
-							<font color="#ffffff" class="alpha60bg70" style="font-size: 16px;">
-								<font style="font-size: 18px;"><b>
-								Chauffeur privee
-								</b></font>
-							</font>
-						</div>
-    					<div style="position: absolute; top: 85%; left: 50%; transform: translate(-50%, -50%); white-space: nowrap;">							
-							<a href="chauffeur_privee.php" class="yellow_button">En savoir plus</a>
-						</div>	
-						</a>		
+				<tr>
+					<td></td>
+					<td style="border-width: 1px; border-style: solid; border-color: #5e68ee#5e68ee; padding: 10px; border-top: none;">
+						<b>Jean-luc mazzoni</b><br>
+						<p>
+						The English edition of Wikipedia has grown to 5,757,526 articles, equivalent to over 2,500 print volumes of the Encyclopædia Britannica. Including all language editions, Wikipedia has over 48 million articles,[1] equivalent to over 19,000 print volumes.
+						</p><p>
+						Wikipedia's Main Page as it appeared on 20 December 2001.
+						</p><p>
+						Wikipedia began with its launch on 15 January 2001, two days after the domain was registered[2] by Jimmy Wales and Larry Sanger. Its technological and conceptual underpinnings predate this; the earliest known proposal for an online encyclopedia was made by Rick Gates in 1993,[3] but the concept of a free-as-in-freedom online encyclopedia (as distinct from mere open source)[4] was proposed by Richard Stallman in December 2000.[5]
+						<p>
+						Crucially, Stallman's concept specifically included the idea that no central organization should control editing. This characteristic was in stark contrast to contemporary digital encyclopedias such as Microsoft Encarta, Encyclopædia Britannica, and even Bomis's Nupedia, which was Wikipedia's direct predecessor. In 2001, the license for Nupedia was changed to GFDL, and Wales and Sanger launched Wikipedia using the concept and technology of a wiki pioneered in 1995 by Ward Cunningham.[6] Initially, Wikipedia was intended to complement Nupedia, an online encyclopedia project edited solely by experts, by providing additional draft articles and ideas for it. In practice, Wikipedia quickly overtook Nupedia, becoming a global project in multiple languages and inspiring a wide range of other online reference projects.
+						</p>
 					</td>
-					<td width="20px"></td>
-					<td align="center" valign="middle" style="position: relative; border-width: 1px; border-style: solid; border-color: #000000;" width="35%">
-						<a href="bien_etre.php" style="text-decoration: none; color: black;">
-						<img src="images/gastronomie_4.jpg" width="100%" height="250px" style="margin:0px; padding: 0px; float: left;">
-						<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%;">							
-							<font color="#ffffff" class="alpha60bg70" style="font-size: 16px;">
-								<font style="font-size: 18px;"><b>
-								Bien être
-								</b></font>
-							</font>
-						</div>
-    					<div style="position: absolute; top: 85%; left: 50%; transform: translate(-50%, -50%); white-space: nowrap;">							
-							<a href="bien_etre.php" class="yellow_button">En savoir plus</a>
-						</div>	
-						</a>		
-					</td>	
-					<td></td>				
-				</tr>
+					<td></td>
+				</tr>			
 			</table>
 			
 			<hr style="height: 15px; width: 99%; margin:0 auto; background: none; border:0 none;"/>

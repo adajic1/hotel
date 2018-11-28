@@ -18,22 +18,22 @@
 			                <li>
 			                    <a href="gastronomie.php" title="Nav Link 2">GASTRONOMIE</a>
 			                    <ul>  
-			                        <li><a href="#" title="Sub Nav Link 1">JEAN-LUC MAZZONI</a></li>
-			                        <li><a href="#" title="Sub Nav Link 2">BUFFET PETIT DEJEUNER</a></li>
-			                        <li><a href="#" title="Sub Nav Link 3">CHAUFFEUR PRIVEE</a></li>
-			                        <li><a href="#" title="Sub Nav Link 4">BIEN ÊTRE</a></li>
+			                        <li><a href="jean_luc_mazzoni.php" title="Sub Nav Link 1">JEAN-LUC MAZZONI</a></li>
+			                        <li><a href="buffet_pettit_dejeuner.php" title="Sub Nav Link 2">BUFFET PETIT DEJEUNER</a></li>
+			                        <li><a href="chauffeur_privee.php" title="Sub Nav Link 3">CHAUFFEUR PRIVEE</a></li>
+			                        <li><a href="bien_etre.php" title="Sub Nav Link 4">BIEN ÊTRE</a></li>
 			                    </ul>                
 			                </li>
 			            </td>
 			            <td></td>
 			            <td align="center" width="1" style="white-space: nowrap;">
 			                <li>
-			                    <a href="#" title="Nav Link 3">LES SERVICES</a>
+			                    <a href="les_services.php" title="Nav Link 3">LES SERVICES</a>
 			                    <ul>  
-			                        <li><a href="#" title="Sub Nav Link 1">NAVETTE AEROPORT</a></li>
-			                        <li><a href="#" title="Sub Nav Link 2">CONCIERGERIE</a></li>
-			                        <li><a href="#" title="Sub Nav Link 3">RESTAURANT</a></li>
-			                        <li><a href="#" title="Sub Nav Link 4">SALONDETHE</a></li>
+			                        <li><a href="navette_aeroport.php" title="Sub Nav Link 1">NAVETTE AEROPORT</a></li>
+			                        <li><a href="conciergerie.php" title="Sub Nav Link 2">CONCIERGERIE</a></li>
+			                        <li><a href="restaurant.php" title="Sub Nav Link 3">RESTAURANT</a></li>
+			                        <li><a href="salondethe.php" title="Sub Nav Link 4">SALONDETHE</a></li>
 			                    </ul>                
 			                </li>
 			            </td>

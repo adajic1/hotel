@@ -16,7 +16,7 @@
 			doc_width = $(document).width()*95./100;
 			$('#layout_table').attr('width', doc_width);
 			
-			nav_link_el = $("a[title='Nav Link 2']")[0];
+			nav_link_el = $("a[title='Nav Link 3']")[0];
 			$(nav_link_el).css({"text-decoration": "underline"});
 			
 			$('.modal-toggle').on('click', function(e) {
@@ -59,10 +59,10 @@
 			
 			<?php require "_navigation.php"; ?>
 
-			<a href="jean_luc_mazzoni.php" style="text-decoration: none; color: black;">JEAN-LUC MAZZONI</a> <?php for($i=0; $i<8; $i++) print "&nbsp;"; ?> - <?php for($i=0; $i<8; $i++) print "&nbsp;"; ?> 
-			<a href="buffet_pettit_dejeuner.php" style="text-decoration: none; color: black;">BUFFET PETIT DEJEUNER</a> <?php for($i=0; $i<8; $i++) print "&nbsp;"; ?> - <?php for($i=0; $i<8; $i++) print "&nbsp;"; ?> 
-			<a href="chauffeur_privee.php" style="text-decoration: none; color: black;">CHAUFFEUR PRIVEE</a> <?php for($i=0; $i<8; $i++) print "&nbsp;"; ?> - <?php for($i=0; $i<8; $i++) print "&nbsp;"; ?> 
-			<a href="bien_etre.php" style="text-decoration: none; color: black;">BIEN ÊTRE</a> 
+			<a href="navette_aeroport.php" style="text-decoration: none; color: black;">NAVETTE AEROPORT</a> <?php for($i=0; $i<8; $i++) print "&nbsp;"; ?> - <?php for($i=0; $i<8; $i++) print "&nbsp;"; ?> 
+			<a href="conciergerie.php" style="text-decoration: none; color: black;">CONCIERGERIE</a> <?php for($i=0; $i<8; $i++) print "&nbsp;"; ?> - <?php for($i=0; $i<8; $i++) print "&nbsp;"; ?> 
+			<a href="restaurant.php" style="text-decoration: none; color: black;">RESTAURANT</a> <?php for($i=0; $i<8; $i++) print "&nbsp;"; ?> - <?php for($i=0; $i<8; $i++) print "&nbsp;"; ?> 
+			<a href="salondethe.php" style="text-decoration: none; color: black;">SALONDETHE</a> 
 			
 			<hr style="height: 15px; width: 99%; margin:0 auto; background: none; border:0 none;"/>
 			
@@ -70,33 +70,36 @@
 				<tr>	
 					<td></td>								
 					<td align="center" valign="middle" style="position: relative; border-width: 1px; border-style: solid; border-color: #000000;" width="35%">
-						<a href="jean_luc_mazzoni.php" style="text-decoration: none; color: black;">
-						<img src="images/gastronomie_1.jpg" width="100%" height="250px" style="margin:0px; padding: 0px; float: left;">
+						<a href="navette_aeroport.php" style="text-decoration: none; color: black;">
+						<img src="images/les_services_1.jpg" width="100%" height="250px" style="margin:0px; padding: 0px; float: left;">
 						<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%;">							
 							<font color="#ffffff" class="alpha60bg70" style="font-size: 16px;">
 								<font style="font-size: 18px;"><b>
-								Jean-luc mazzoni
-								</b></font>
+								Navette aéroport / gare maritime
+								</b></font><br>
+								Aller –Retour, sur réservation
 							</font>
 						</div>
     					<div style="position: absolute; top: 85%; left: 50%; transform: translate(-50%, -50%); white-space: nowrap;">							
-							<a href="jean_luc_mazzoni.php" class="yellow_button">En savoir plus</a>
+							<a href="navette_aeroport.php" class="yellow_button">En savoir plus</a>
 						</div>	
 						</a>		
 					</td>
 					<td width="20px"></td>
 					<td align="center" valign="middle" style="position: relative; border-width: 1px; border-style: solid; border-color: #000000;" width="35%">
-						<a href="buffet_pettit_dejeuner.php" style="text-decoration: none; color: black;">
-						<img src="images/gastronomie_2.jpg" width="100%" height="250px" style="margin:0px; padding: 0px; float: left;">
+						<a href="conciergerie.php" style="text-decoration: none; color: black;">
+						<img src="images/les_services_2.jpg" width="100%" height="250px" style="margin:0px; padding: 0px; float: left;">
 						<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%;">							
 							<font color="#ffffff" class="alpha60bg70" style="font-size: 16px;">
 								<font style="font-size: 18px;"><b>
-								Buffet petit dejeuner
-								</b></font>
+								Conciergerie
+								</b></font><br>
+								Un besoin, une envie, matin et<br>
+								soir nous répondons à vos demandes
 							</font>
 						</div>
     					<div style="position: absolute; top: 85%; left: 50%; transform: translate(-50%, -50%); white-space: nowrap;">							
-							<a href="buffet_pettit_dejeuner.php" class="yellow_button">En savoir plus</a>
+							<a href="conciergerie.php" class="yellow_button">En savoir plus</a>
 						</div>	
 						</a>		
 					</td>	
@@ -110,33 +113,35 @@
 				<tr>	
 					<td></td>								
 					<td align="center" valign="middle" style="position: relative; border-width: 1px; border-style: solid; border-color: #000000;" width="35%">
-						<a href="chauffeur_privee.php" style="text-decoration: none; color: black;">
-						<img src="images/gastronomie_3.jpg" width="100%" height="250px" style="margin:0px; padding: 0px; float: left;">
+						<a href="restaurant.php" style="text-decoration: none; color: black;">
+						<img src="images/les_services_3.jpg" width="100%" height="250px" style="margin:0px; padding: 0px; float: left;">
 						<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%;">							
 							<font color="#ffffff" class="alpha60bg70" style="font-size: 16px;">
 								<font style="font-size: 18px;"><b>
-								Chauffeur privee
-								</b></font>
+								Restaurant
+								</b></font><br>
+								Pour tous vos déplacements, les chauffeurs de l’hôtel sont à votre écoute
 							</font>
 						</div>
     					<div style="position: absolute; top: 85%; left: 50%; transform: translate(-50%, -50%); white-space: nowrap;">							
-							<a href="chauffeur_privee.php" class="yellow_button">En savoir plus</a>
+							<a href="restaurant.php" class="yellow_button">En savoir plus</a>
 						</div>	
 						</a>		
 					</td>
 					<td width="20px"></td>
 					<td align="center" valign="middle" style="position: relative; border-width: 1px; border-style: solid; border-color: #000000;" width="35%">
-						<a href="bien_etre.php" style="text-decoration: none; color: black;">
-						<img src="images/gastronomie_4.jpg" width="100%" height="250px" style="margin:0px; padding: 0px; float: left;">
+						<a href="salondethe.php" style="text-decoration: none; color: black;">
+						<img src="images/les_services_4.jpg" width="100%" height="250px" style="margin:0px; padding: 0px; float: left;">
 						<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%;">							
 							<font color="#ffffff" class="alpha60bg70" style="font-size: 16px;">
 								<font style="font-size: 18px;"><b>
-								Bien être
-								</b></font>
+								Salondethe
+								</b></font><br>
+								Massage; Manicure; Pédicure; Esthéticienne…
 							</font>
 						</div>
     					<div style="position: absolute; top: 85%; left: 50%; transform: translate(-50%, -50%); white-space: nowrap;">							
-							<a href="bien_etre.php" class="yellow_button">En savoir plus</a>
+							<a href="salondethe.php" class="yellow_button">En savoir plus</a>
 						</div>	
 						</a>		
 					</td>	

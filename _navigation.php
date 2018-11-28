@@ -53,17 +53,17 @@
 			            <td></td>
 			            <td align="center" width="1" style="white-space: nowrap;">
 			                <li>
-			                    <a href="#" title="Nav Link 5">OCCASIONS</a>
+			                    <a href="occasions.php" title="Nav Link 5">OCCASIONS</a>
 			                    <ul>  
-			                        <li><a href="#" title="Sub Nav Link 1">MARIAGE</a></li>
-			                        <li><a href="#" title="Sub Nav Link 2">EVENEMENT & CONFERENCE</a></li>
-			                        <li><a href="#" title="Sub Nav Link 3">OCCASION SPECIALE</a></li>
+			                        <li><a href="mariage.php" title="Sub Nav Link 1">MARIAGE</a></li>
+			                        <li><a href="evenement_and_conference.php" title="Sub Nav Link 2">EVENEMENT & CONFERENCE</a></li>
+			                        <li><a href="occasion_speciale.php" title="Sub Nav Link 3">OCCASION SPECIALE</a></li>
 			                    </ul>                
 			                </li>
 		                </td>
 		                <td></td>
 		                </td><td align="center" width="1" style="white-space: nowrap;">
-			                <li><a href="#" title="Nav Link 6">LES OFFRES</a></li>
+			                <li><a href="les_offres.php" title="Nav Link 6">LES OFFRES</a></li>
 		                </td>
 	                </tr>
                 </table>

@@ -16,7 +16,7 @@
 			            <td></td>
 			            <td align="center" width="1" style="white-space: nowrap;">
 			                <li>
-			                    <a href="#" title="Nav Link 2">GASTRONOMIE</a>
+			                    <a href="gastronomie.php" title="Nav Link 2">GASTRONOMIE</a>
 			                    <ul>  
 			                        <li><a href="#" title="Sub Nav Link 1">JEAN-LUC MAZZONI</a></li>
 			                        <li><a href="#" title="Sub Nav Link 2">BUFFET PETIT DEJEUNER</a></li>

@@ -69,7 +69,7 @@
 					<td></td>								
 					<td align="center" valign="middle" style="position: relative; border-width: 1px; border-style: solid; border-color: #000000;" width="43%">
 						<a href="chambre.php" style="text-decoration: none; color: black;">
-						<img src="images/index_1.jpg" width="100%" height="300px" style="margin:0px; padding: 0px; float: left;">
+						<img src="images/hebergement_1.jpg" width="100%" height="300px" style="margin:0px; padding: 0px; float: left;">
 						<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%;">							
 							<font color="#ffffff" class="alpha60bg70" style="font-size: 16px;">
 								<font style="font-size: 18px;"><b>
@@ -85,7 +85,7 @@
 					<td></td>
 					<td align="center" valign="middle" style="position: relative; border-width: 1px; border-style: solid; border-color: #000000;" width="43%">
 						<a href="suite.php" style="text-decoration: none; color: black;">
-						<img src="images/index_2.jpg" width="100%" height="300px" style="margin:0px; padding: 0px; float: left;">
+						<img src="images/hebergement_2.jpg" width="100%" height="300px" style="margin:0px; padding: 0px; float: left;">
 						<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%;">							
 							<font color="#ffffff" class="alpha60bg70" style="font-size: 16px;">
 								<font style="font-size: 18px;"><b>

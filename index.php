@@ -15,10 +15,7 @@
 		function loaded() {
 			doc_width = $(document).width()*95./100;
 			$('#layout_table').attr('width', doc_width);
-			
-			nav_link_el = $("a[title='Nav Link 1']")[0];
-			$(nav_link_el).css({"text-decoration": "underline"});
-			
+						
 			$('.modal-toggle').on('click', function(e) {
 			  e.preventDefault();
 			  $('.modal').toggleClass('is-visible');

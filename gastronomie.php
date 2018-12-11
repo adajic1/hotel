@@ -69,9 +69,9 @@
 			<table cellspacing="0" cellpadding="0" border="0" width="100%">
 				<tr>	
 					<td></td>								
-					<td align="center" valign="middle" style="position: relative; border-width: 1px; border-style: solid; border-color: #000000;" width="35%">
+					<td align="center" valign="middle" style="position: relative; border-width: 1px; border-style: solid; border-color: #000000;" width="43%">
 						<a href="jean_luc_mazzoni.php" style="text-decoration: none; color: black;">
-						<img src="images/gastronomie_1.jpg" width="100%" height="250px" style="margin:0px; padding: 0px; float: left;">
+						<img src="images/gastronomie_1.jpg" width="100%" height="300px" style="margin:0px; padding: 0px; float: left;">
 						<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%;">							
 							<font color="#ffffff" class="alpha60bg70" style="font-size: 16px;">
 								<font style="font-size: 18px;"><b>
@@ -85,9 +85,9 @@
 						</a>		
 					</td>
 					<td width="20px"></td>
-					<td align="center" valign="middle" style="position: relative; border-width: 1px; border-style: solid; border-color: #000000;" width="35%">
+					<td align="center" valign="middle" style="position: relative; border-width: 1px; border-style: solid; border-color: #000000;" width="43%">
 						<a href="buffet_pettit_dejeuner.php" style="text-decoration: none; color: black;">
-						<img src="images/gastronomie_2.jpg" width="100%" height="250px" style="margin:0px; padding: 0px; float: left;">
+						<img src="images/gastronomie_2.jpg" width="100%" height="300px" style="margin:0px; padding: 0px; float: left;">
 						<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%;">							
 							<font color="#ffffff" class="alpha60bg70" style="font-size: 16px;">
 								<font style="font-size: 18px;"><b>
@@ -109,9 +109,9 @@
 			<table cellspacing="0" cellpadding="0" border="0" width="100%">
 				<tr>	
 					<td></td>								
-					<td align="center" valign="middle" style="position: relative; border-width: 1px; border-style: solid; border-color: #000000;" width="35%">
+					<td align="center" valign="middle" style="position: relative; border-width: 1px; border-style: solid; border-color: #000000;" width="43%">
 						<a href="chauffeur_privee.php" style="text-decoration: none; color: black;">
-						<img src="images/gastronomie_3.jpg" width="100%" height="250px" style="margin:0px; padding: 0px; float: left;">
+						<img src="images/gastronomie_3.jpg" width="100%" height="300px" style="margin:0px; padding: 0px; float: left;">
 						<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%;">							
 							<font color="#ffffff" class="alpha60bg70" style="font-size: 16px;">
 								<font style="font-size: 18px;"><b>
@@ -125,9 +125,9 @@
 						</a>		
 					</td>
 					<td width="20px"></td>
-					<td align="center" valign="middle" style="position: relative; border-width: 1px; border-style: solid; border-color: #000000;" width="35%">
+					<td align="center" valign="middle" style="position: relative; border-width: 1px; border-style: solid; border-color: #000000;" width="43%">
 						<a href="bien_etre.php" style="text-decoration: none; color: black;">
-						<img src="images/gastronomie_4.jpg" width="100%" height="250px" style="margin:0px; padding: 0px; float: left;">
+						<img src="images/gastronomie_4.jpg" width="100%" height="300px" style="margin:0px; padding: 0px; float: left;">
 						<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%;">							
 							<font color="#ffffff" class="alpha60bg70" style="font-size: 16px;">
 								<font style="font-size: 18px;"><b>

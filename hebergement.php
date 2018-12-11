@@ -82,7 +82,7 @@
 						</div>	
 						</a>		
 					</td>
-					<td></td>
+					<td width="20px"></td>
 					<td align="center" valign="middle" style="position: relative; border-width: 1px; border-style: solid; border-color: #000000;" width="43%">
 						<a href="suite.php" style="text-decoration: none; color: black;">
 						<img src="images/hebergement_2.jpg" width="100%" height="300px" style="margin:0px; padding: 0px; float: left;">

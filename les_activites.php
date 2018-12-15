@@ -64,7 +64,7 @@
 			<a href="les_terres.php" style="text-decoration: none; color: black;">LES TERRES</a> <?php for($i=0; $i<8; $i++) print "&nbsp;"; ?> - <?php for($i=0; $i<8; $i++) print "&nbsp;"; ?> 
 			<a href="un_diner_en_auberge.php" style="text-decoration: none; color: black;">UN DINER EN AUBERGE</a> <?php for($i=0; $i<8; $i++) print "&nbsp;"; ?> - <?php for($i=0; $i<8; $i++) print "&nbsp;"; ?> 
 			<a href="les_thermes.php" style="text-decoration: none; color: black;">LES THERMES</a> 
-			
+
 			<hr style="height: 10px; width: 99%; margin:0 auto; background: none; border:0 none;"/>
 			
 			Partez à la découverte de l’île de beauté au travers de différentes activités, qui vous amèneront à travers les plus beaux endroits de la Corse
